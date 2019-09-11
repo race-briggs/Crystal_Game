@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="assets/styles/style.css" type="text/css">
 </head>
 <body>
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid text-center">
     <div class="container">
       <h1 class="display-4">Crystal Collector</h1>
       <p class="lead">The crystals have random values, see if you can reach exactly 0!</p>
@@ -34,23 +34,51 @@
       <div class="col-lg-5">
         <div class="row">
           <div class="col-md-6">
-            Score to reach 0 From
+            <div class="card bg-light mb-3 text-center" style="max-width: 18rem;">
+              <div class="card-header">Target Score</div>
+              <div class="card-body">
+                <h5 class="card-title">Score Goes Here</h5>
+              </div>
+            </div>
           </div>
           <div class="col-md-6">
-            Current Player Score
+            <div class="card bg-light mb-3 text-center" style="max-width: 18rem;">
+              <div class="card-header">Current Number</div>
+              <div class="card-body">
+                <h5 class="card-title">Current Number Here</h5>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            Wins
+            <div class="card bg-light mb-3 text-center" style="max-width: 18rem;">
+              <div class="card-header">Wins</div>
+              <div class="card-body">
+                <h5 class="card-title">Wins Here</h5>
+                </p>
+              </div>
+            </div>
           </div>
           <div class="col-md-6">
-            Losses
+            <div class="card bg-light mb-3 text-center" style="max-width: 18rem;">
+              <div class="card-header">Losses</div>
+              <div class="card-body">
+                <h5 class="card-title">Losses Here</h5>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-5">
-        Crystal Images
+      <div class="col-lg-5 text-center">
+        <h5>Crystals</h5><hr>
+        <div class="img-container">
+          <img src="assets/images/blue_crystal.jpg" class="crystal-image">
+          <img src="assets/images/purple_crystal.jpg" class="crystal-image">
+          <img src="assets/images/red_crystal.jpg" class="crystal-image">
+          <img src="assets/images/yellow_crystal.jpg" class="crystal-image">
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>

@@ -1,3 +1,8 @@
-.jumbotron {
+.text-center {
   text-align: center;
+}
+
+.crystal-image {
+  width: 23%;
+  height: 23%;
 }
