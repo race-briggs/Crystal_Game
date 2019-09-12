@@ -1,3 +1,7 @@
+* {
+  font-family: 'Kumar One', cursive;
+}
+
 body {
   background-image: url(../images/cave-background.jpg);
 }
