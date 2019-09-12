@@ -1,3 +1,14 @@
+body {
+  background-image: url(../images/cave-background.jpg);
+}
+
+h5 {
+  color: white
+}
+
+hr {
+  background-color: white;
+}
 .text-center {
   text-align: center;
 }
